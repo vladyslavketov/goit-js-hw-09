@@ -3,6 +3,7 @@ const refs = {
   stoptBtn: document.querySelector('[data-stop]'),
   body: document.querySelector('body'),
 };
+let timerId = null;
 
 refs.startBtn.addEventListener('click', () => {
   const DELAY = 1000;
